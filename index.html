@@ -7,9 +7,20 @@
     <meta charset="utf-8">
     <title>The EZ Life: Easy Life Fanpage</title>
 
+    <!-- ***
+         The <head> element should contain elements that provide information about the page.
+
+         Anything that you want to display on the page should go inside the <body> element. 
+
+         Your <head> element therefore should end here, and your <body> start.
+         *** -->
+    
     <div>
       <h1> The EZ Life: Easy Life Fanpage</h1>
 
+      <!-- ***
+           Style like this is information about the page, so should go inside the <head> element.
+           *** -->
       <style>
       h2 { color: pink; background-color: black; }
       h1 {background-color: pink; }
@@ -19,10 +30,31 @@
       <p> Hello & Welcome to the Official fanpage for Easy Life. Here you will find everything and anything Easy Life related.
         From updates to social media links. This page was inspired by my love and appreciation for these cheeky east midlands lads.
         Big Up Leicester City!!</p>
+      
+      <!-- ***
+           <a> elements need to tell the browser two crucial things:
+              1: What should be displayed on the page for the user to click
+              2: Where should the browser go when it's clicked. 
+          
+           You've only done the second here. The correct format for <a> elements is:
+
+              <a href="where-to-go.html">What to show on the page to click on</a>
+
+          *** -->
+            
       <a href="index.html"></a>
       <a href="about.html"></a>
       <a href="contact.html"></a>
 
+      <!-- ***
+           With the controls attribute, you don't need to put ="true". Just including the attribute name
+           will set it to true. For example:
+
+           <video controls width="100%">
+
+           You should also include at least one more <source> element with the video in a different 
+           format. 
+           *** -->
       <video controls="true" width="100%" poster="img/ezlifejunkfood.jpeg">
 
         <source src="vid/vid 4 atom.mp4" type="video/mp4"/>
@@ -50,6 +82,18 @@
       <p>Footer: im not sure what to put here yet</p>
       <a href="easylifemusic.com"></a>
     </div>
+      
+      <!-- ***
+           None of your media (images and video) load. This is because you've not uploaded them to GitHub. 
+
+           Your whole website needs to be uploaded to GitHub, exactly as it is on your computer. This means you should have a 
+           folder called img with your images in, and a folder called vid with your videos in. 
+
+           There's a video on Blackboard that shows how to upload a whole folder to GitHub in one go. You can find it here:
+
+           https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=99d99b0c-e10d-4719-baff-ac7001024979
+
+           *** -->
 
   </body>
 
